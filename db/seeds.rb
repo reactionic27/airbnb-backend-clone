@@ -22,7 +22,7 @@ puts '== Seeding database =='
     'https://dywf8esi8sang.cloudfront.net/pictures/987bf0105a601eb3e7c570c14df5df84_large.jpg'
   ]
   Apartment.create!(
-    title: Forgery('name').full_name,
+    title: Faker::Lorem.sentence,
     price: price,
     sqm: sqm,
     price_per_sqm: price_per_sqm,

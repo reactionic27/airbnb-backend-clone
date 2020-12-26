@@ -35,12 +35,12 @@ gem 'search_object_graphql', '0.3.1'
 gem 'graphql-query-resolver'
 
 gem 'rack-cors'
-gem 'forgery', '0.8.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
+  gem 'faker'
 end
 
 group :development do
